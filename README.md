@@ -1,6 +1,6 @@
 # 08/30 个人网页设计
 
-克隆本代码仓库：`git clone`
+克隆本代码仓库：`git clone https://github.com/zzy-37/0830-website-design.git`
 
 ## 准备工作
 
