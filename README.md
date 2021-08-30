@@ -11,7 +11,7 @@
 
 下载 `git`：https://git-scm.com/downloads
 
-**windows：** 从上方地址下载并运行安装包，安装选项选择全部默认即可
+**windows：** 从上方地址下载并运行安装包，安装选项~~选择全部默认即可~~注意勾选使用右键菜单
 
 **macOS：** 查看 [Download for macOS](https://git-scm.com/download/mac)
 
@@ -73,6 +73,9 @@ html 文件定义了页面的框架，浏览器通过解析接收到的 html 文
 <h1>"h1-h6"表示一级到六级标题</h1>
 
 <p>p标签表示段落</p>
+
+<br />
+<!-- br标签添加换行符 -->
 
 <a href="#">a标签表示链接</a>
 
@@ -173,3 +176,12 @@ img {
 > - CSS 教程 | 菜鸟教程：https://www.runoob.com/css/css-tutorial.html
 > - A Complete Guide to Flexbox | CSS-Tricks: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 > - object-fit - CSS: Cascading Style Sheets | MDN：https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+
+> 实用工具：
+>
+> - Figma - 在线网页版式设计：https://www.figma.com
+> - CSS Gradient - 在线 css 渐变生成器：https://cssgradient.io
+> - SheCodes - 在线 css 生成器、颜色渐变、色盘、和代码示例：https://www.csscodegenerators.com/
+> - Lorem Picsum - 链接随机图片：https://picsum.photos/
+> - Shape Divider App - 在线生成 svg 元素：https://www.shapedivider.app/
+> - Haikei - 在线生成 svg 元素：https://haikei.app/
