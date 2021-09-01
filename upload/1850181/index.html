@@ -5,17 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>我的板凳</title>
+
+    <style>
+      p {
+        margin: 0;
+      }
+      .position {
+        background-color: #808080;
+        width: 75ch;
+        position: absolute;
+        top: 200px;
+        left: 20%;
+        bottom: 0;
+      }
+      .container {
+        position: relative;
+        height: 300px;
+        background-color: #8080ff;
+      }
+      .sticky {
+        position: sticky;
+        top: 0;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        z-index: 5;
+      }
+
+      .flex-container {
+        width: 700px;
+        height: 500px;
+        background-color: #ffff80;
+        display: flex;
+        flex-direction: column;
+      }
+      .flex-box {
+        flex: 1;
+        border: 3px solid black;
+      }
+
+      .flex-container2 {
+        display: flex;
+        background-color: #ff8080;
+        height: 300px;
+        justify-content: center;
+      }
+      .flex-container2 > p{
+        background-color: white;
+        margin: 1rem;
+      }
+      .nav {
+        max-width: 20%;
+      }
+      .main {
+        max-width: 80%;
+      }
+    </style>
   </head>
   <body>
     <h1>Heading</h1>
 
     <a href="https://zzy-37.github.io"><p>我的个人主页：zzy-37.github.io</p></a>
 
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sapiente
-      necessitatibus, eum ullam ducimus non eligendi ratione praesentium
-      repellendus doloribus ex eaque cupiditate temporibus iure, aliquid maxime
-      ipsam iusto. Quis?
+    <p class="sticky">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit,
+      ducimus.
     </p>
+
+    <div class="container">
+      <p class="position">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui sapiente
+        necessitatibus, eum ullam ducimus non eligendi ratione praesentium
+        repellendus doloribus ex eaque cupiditate temporibus iure, aliquid
+        maxime ipsam iusto. Quis?
+      </p>
+
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
+        nulla, quae ipsum iure odio iste eius ad minus, repellat ducimus, aut
+        numquam a? Dicta veniam impedit cum reprehenderit officiis placeat.
+      </p>
+    </div>
+
+    <div class="flex-container">
+      <p class="flex-box">Lorem ipsum dolor sit amet.</p>
+      <p class="flex-box">Quia recusandae harum quo corporis?</p>
+      <p class="flex-box">Distinctio aliquid voluptatem sit? Nostrum.</p>
+      <p class="flex-box">Blanditiis expedita quam possimus quibusdam.</p>
+      <p class="flex-box">Dignissimos nihil eaque laboriosam voluptatem.</p>
+    </div>
+    <div class="flex-container2">
+      <p class="nav">Lorem ipsum dolor sit amet.</p>
+      <p class="main">Quia recusandae harum quo corporis?</p>
+    </div>
   </body>
 </html>
