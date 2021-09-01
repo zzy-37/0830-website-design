@@ -89,8 +89,9 @@ a {
   margin-bottom: 1rem;
 }
 .project-image img:first-child {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
+  position:relative;left: rem;
 }
 
 .project-content {
@@ -113,7 +114,7 @@ a {
     flex-direction: row-reverse;
   }
   .project-image img {
-    margin-left: 1rem;
+    margin-left: 1px;
   }
   .project-content {
     max-width: 80ch;
@@ -122,4 +123,24 @@ a {
   .wrapper {
     max-width: 800px;
   }
+
+.jieshao{position: absolute;top: 20rem;
+  width: 420px;
+  height: 150px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: left;
+  margin-left: 1r;
+  color:#111;}
+
+  .qingjing img{aspect-ratio: 4/3;width: 150px;}
+  .pictures img{width: 150px;}
+
+
+ 
+
 }
+
