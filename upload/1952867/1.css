@@ -1,0 +1,180 @@
+h1{font-weight:400; }
+
+
+
+.page-header {
+    border-bottom: 2px solid #424242;
+    min-height: 70.95px;
+    position: relative;
+    margin-left: 4rem;
+}
+
+.eng1 > a{
+    text-decoration-line:underline ;
+    color:black;
+}
+
+
+.page-header > div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.site-title {
+    color: #424242;
+    font-family: "Roboto Condensed";
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+}
+
+.site-title > a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.wrapper > nav{
+    margin-top: 2.5rem;
+}
+
+.wrapper > nav a {
+    text-decoration-line: line-through;
+    margin-left:1rem;
+    color: #424242;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 0rem;
+}
+
+.position {
+    width: 37%;
+    position: static;
+}
+
+.content-eng{
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-size: 14px;
+    color:#969696
+}
+.wrapper {
+    padding: 0 1rem;
+    margin-left: -1rem;
+    margin-right: auto;
+}
+
+.project-header{
+    font-size: 12px;
+    line-height: 0.1;
+    margin-top: -3px;
+    padding-bottom: 2rem;
+}
+
+.page-content {
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+.sticky{
+    position:sticky;
+    top: 0;
+    z-index:5;
+    background-color:rgba(255, 255, 255, 0.8);
+
+}
+
+
+.content {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    position:relative;
+}
+
+
+
+.page-content h1 {
+    font-size: 28px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.project-image {
+    position: absolute;
+    right:5rem;
+    bottom:-1rem;
+    z-index:-1;
+    /* justify-content: flex-end; */
+}
+
+.content2{
+    display:flex;
+    position: relative;
+    width:37%;
+    height:5.5rem;
+    margin-bottom: 1.5rem;
+    flex-direction:colum;
+    justify-content: flex-end;
+}
+
+.designer-image{
+    right:0rem
+}
+
+.designer-image img{
+    width: 5rem;
+    height:5rem;
+}
+
+.project-image img {
+    width:auto;
+    height: 37rem;
+}
+
+.introducing{
+    font-size: 12px;
+    margin:0;
+    text-align: right;
+    padding-right:1rem;
+    padding-bottom: 1rem;
+}
+
+.eng{
+    font-size:14px;
+    margin:0;
+}
+.eng1{
+    font-size:12px;
+    margin:-0.3rem;
+    padding-right: 0.1rem;
+}
+
+.page-content2{
+    margin-top: 9rem;   
+    margin-left: 3rem;
+    margin-bottom: 10rem;
+    width:90%;
+}
+
+.diary-image{
+    margin-left:0;   
+    overflow: auto;
+}
+
+.diary{
+    font-size:15px;
+    font-weight: bolder;
+    font-family: "Roboto Condensed";
+    margin-left: 0rem;
+}
+
+
+.diary-image img{
+    height: 20rem;
+    width:auto;
+}

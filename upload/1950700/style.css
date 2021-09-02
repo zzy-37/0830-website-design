@@ -84,13 +84,13 @@ a {
   /* aspect-ratio: 16 / 9; */
   aspect-ratio: 1;
   object-fit: cover;
-  width: 5rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
   margin-bottom: 1rem;
 }
 .project-image img:first-child {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 .project-content {
