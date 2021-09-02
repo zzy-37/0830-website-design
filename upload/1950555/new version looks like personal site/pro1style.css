@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 241, 241);
+    
+}
+.my-info{
+    background: linear-gradient(12deg, rgb(125, 226, 204) 0%, rgb(94, 131, 199) 100%);
+    position: fixed;
+    width: 369px;
+    height: 800px;
+    top: 0px;
+    left: 0px;
+}
+.projectphoto{
+    display:inline-block;
+    position:relative;
+    width: 100px;
+    height:100px;
+    overflow:hidden;
+    border-radius:50%;
+    top: 50px;
+    left: 134px;
+}
+
+.myphoto{
+    display:inline-block;
+    position:relative;
+    width: 100px;
+    height:100px;
+    overflow:hidden;
+    border-radius:50%;
+    top: 50px;
+    left: 134px;
+}
+
+.myphoto img{
+    width:auto;
+    height:100%;
+}
+.myname{
+    position: relative;
+    text-align:center;
+    top: 100px;
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 2;
+}
+.myname p{
+    font-size: 16px;
+}
+.contactme{
+    position: relative;
+    text-align:center;
+    top: 160px;
+    font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+}
+.contactme p{
+    font-size: 18px;
+}
+.contactme a{
+    font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";color: white;
+    text-decoration:none
+}
+
+.tools{
+    position: fixed;
+    width: 45px;
+    height: 800px;
+    left: 369px;
+    top: 0px;
+    background: linear-gradient(12deg, rgb(126, 175, 190) 0%, rgb(170, 219, 209)   100%);
+
+
+}
+.icon1{
+    position: absolute;
+    width: 45px;
+    height: auto;
+    top: 34px;
+    left: 3px;
+    
+}
+.icon1 img{
+     width: 35px;
+     height: auto;
+}
+.icon2{
+    position: absolute;
+    width: 45px;
+    height: auto;
+    top: 100px;
+    left: 7px; 
+}
+.icon2 img{
+     width: 27px;
+     height: auto;
+}
+
+/*以下开始是右半部分*/
+
+.mainpart{
+    left: 470px;
+}
+.photo1{
+   display:inline-block;
+   position: relative;
+   width: 1010px;
+   height: 490px;
+   left: 470px;
+   top: 22px;
+   overflow: hidden;
+}
+.photo1 img{
+    width: 100%;
+    height: auto;
+    margin-top: -85px;
+}
+.text-1{
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #867d7d;
+    line-height: 2;
+    text-align: center;
+}
+.test-1 span{
+    text-align:center;
+}
+
+.photo2{
+    display:inline-block;
+    position: relative;
+    width: 505px;
+    height: 284px;
+    left: 470px;
+    top: 20px;
+    overflow: hidden;
+ }
+ .photo2 img{
+     width: auto;
+     height: 100%;
+ }
+ .photo3{
+    display:inline-block;
+    position: relative;
+    width: 505px;
+    height: 284px;
+    left: 465px;
+    top: 20px;
+    overflow: hidden;
+ }
+ .photo3 img{
+     width: 100%;
+     height: auto;
+ }
+
+ .text-2{
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #867d7d;
+    line-height: 2;
+    text-indent:33px;
+}
+.test-2 span{
+    text-align:center;
+}
+
+.photo4{
+    display:inline-block;
+    position: relative;
+    width: 505px;
+    height: 284px;
+    left: 470px;
+    top: 10px;
+    overflow: hidden;
+ }
+ .photo4 img{
+     width: auto;
+     height: 100%;
+ }
+ .photo5{
+    display:inline-block;
+    position: relative;
+    width: 505px;
+    height: 284px;
+    left: 465px;
+    top: 10px;
+    overflow: hidden;
+ }
+ .photo5 img{
+     width: 100%;
+     height: auto;
+     margin-top: -130px;
+ }
+
+ .text-3{
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #867d7d;
+    line-height: 2;
+    text-indent:33px;
+}
+.test-3 span{
+    text-align:center;
+}
+.text-4{
+    margin-left: 470px;
+    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:50px;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    color: #867d7d;
+    line-height: 2;
+    text-indent:33px;
+    text-align:center;
+}
+.test-4 span{
+    text-align:center;
+}
+.photo6{
+    display:inline-block;
+    position: relative;
+    width: 1010px;
+    height: 600px;
+    left: 470px;
+    top: 22px;
+    overflow: hidden;
+ }
+ .photo6 img{
+     width: 100%;
+     height: auto;
+     margin-top: -45px;
+ }
+
