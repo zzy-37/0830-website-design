@@ -177,6 +177,7 @@ img {
 > - CSS position 属性：https://www.runoob.com/css/css-positioning.html
 > - A Complete Guide to Flexbox | CSS-Tricks: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 > - object-fit - CSS: Cascading Style Sheets | MDN：https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+> - CSS scroll-snap：https://developer.mozilla.org/zh-CN/docs/Web/CSS/scroll-snap-type
 
 > 实用工具：
 >
