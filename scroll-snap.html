@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html {
+        /* scroll-snap-type: y mandatory; */
+    }
+    body {
+        margin: 0;
+    }
+    .container {
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        border: 3px solid black;
+        margin: auto;
+        margin-top: 30vh;
+        width: 80vh;
+        height: 40vh;
+    }
+    section {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+    }
+    p {
+        font-size: 40px;
+    }
+    .red {
+        background-color: #ff8080;
+    }
+    .yellow {
+        background-color: #ffff80;
+    }
+    .green {
+        background-color: #80ff80;
+    }
+    .blue {
+        background-color: #8080ff;
+    }
+    .purple {
+        background-color: #ff80ff;
+    }
+</style>
+<body>
+    <div class="container">
+
+    <section class="red">
+        <p>Lorem ipsum dolor sit amet.</p>
+    </section>
+    <section class="green">
+        <p>Porro nulla molestias eveniet amet.</p>
+    </section>
+    <section class="yellow">
+        <p>Neque aut quisquam eos aspernatur!</p>
+    </section>
+    <section class="blue">
+        <p>Recusandae ullam error vitae ad.</p>
+    </section>
+    <section class="purple">
+        <p>Quisquam obcaecati exercitationem earum quis.</p>
+    </section>
+    
+    </div>
+</body>
+</html>
