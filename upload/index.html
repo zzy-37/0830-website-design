@@ -6,6 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>作业上传页面</title>
     <style>
+      .links > div {
+        display: flex;
+        margin: .5rem;
+        height: 200px;
+        padding-left: 1rem;
+        max-width: 500px;
+        border: 3px solid black;
+        align-items: center;
+        transition: all 1s;
+      }
+      .links > div:hover {
+        background-color: black;
+      }
+
+      .links > div a {
+        opacity: 0;
+        text-decoration: none;
+        color: black;
+      }
+      .links > div a:hover {
+        opacity: 1;
+        color: white;
+        font-weight: bold;
+      }
+
       .links img {
         max-width: 150px;
         height: auto;
