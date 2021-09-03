@@ -122,3 +122,33 @@ a {
     }
 }
 
+/* 增加的漫画部分 */
+#dairy-container {
+    background-color: #F7F7F7;
+    height:auto;
+    width: 90%;
+    padding: 0 1rem;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+}
+
+#dairy-container div {
+    width: 100%;
+    height:100%;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.dairy-img {
+    width: 100%;
+    height:100%
+}
+
+
+
