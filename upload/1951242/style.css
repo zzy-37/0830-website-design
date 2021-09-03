@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: #99cccc;
+    margin: 0;
+    font: 400 16px/1.5 "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+a {
+    color: #2a7ae2;
+}
+
+.site-title {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+}
+
+.page-header {
+    border-bottom: 1px solid #ffffff;
+    min-height: 55.95px;
+    position: relative;
+}
+
+.page-header>div {
+    display: flex;
+    align-items: center;
+}
+
+.page-header nav {
+    margin-left: auto;
+}
+
+.page-header nav a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.page-content {
+    margin-bottom: 5rem;
+}
+
+.page-content h1 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.project-header {
+    font-size: 21px;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-header-p {
+    text-align: right;
+}
+
+.page-content-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    position: relative;
+}
+
+.page-content-wrapper h1 {
+    font-size: 36px;
+}
+
+.project-info h2 {
+    font-size: 28px;
+}
+
+.project-info p {
+    font-size: 20px;
+}
+
+.project-info a,
+.project-info span {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.project-image {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: auto;
+    /* justify-content: flex-end; */
+}
+
+.project-image img {
+    /* aspect-ratio: 16 / 9; */
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+}
+
+.project-image img:first-child {
+    width: 15rem;
+    height: 20rem;
+}
+
+.project-content {
+    text-align: left;
+    font-size: 15px;
+    text-indent: 2rem;
+    margin-left: auto;
+    margin-bottom: 12rem;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 600px) {
+    .project-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .project-image {
+        flex-direction: row-reverse;
+    }
+    .project-image img {
+        margin-left: 1rem;
+    }
+    .project-content {
+        max-width: 80ch;
+        padding-left: 8rem;
+    }
+    .wrapper {
+        max-width: 800px;
+    }
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer nav {
+    text-align: center;
+    max-width: auto;
+    background-color: rgba(255, 255, 240, 0.267);
+}
+
+.footer nav span {
+    margin: 2rem;
+}
+
+.footer nav a {
+    margin: 2rem;
+    text-align: justify;
+    text-decoration: none;
+    color: #ff3c3c80;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.gif img {
+    position: fixed;
+    bottom: 5rem;
+    width: 200px;
+    height: 300px;
+    z-index: 99999;
+    opacity: 0.8;
+    object-fit: cover;
+}
