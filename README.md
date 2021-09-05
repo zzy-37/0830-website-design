@@ -22,7 +22,7 @@
    # 见：https://brew.sh/
    # 打开终端输入：
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   📋
+
    ### 安装 git ###
    brew install git
    ```

@@ -6,32 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>作业上传页面</title>
     <style>
-      .links > div {
+      .links {
         display: flex;
-        margin: 0.5rem;
-        height: 200px;
-        padding-left: 1rem;
-        max-width: 500px;
-        border: 3px solid black;
-        align-items: center;
-        transition: all 0.2s;
+        flex-wrap: wrap;
       }
-      .links > div:hover {
-        background-color: black;
+      .links > div {
+        position: relative;
+        width: 150px;
+        height: auto;
+        aspect-ratio: 1;
+        margin: 0.5rem;
+        /* border: 3px solid rgb(129, 122, 122); */
+        /* transition: all 0.2s; */
       }
 
+      .links > div > * {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
       .links > div a {
         text-decoration: none;
-        color: black;
+        font-weight: bold;
+        color: #555555;
+        text-align: center;
       }
-      .links > div:hover a {
-        color: white;
+      .links > div a:hover {
+        background-color: #ffffff80;
         font-weight: bold;
       }
-
       .links img {
-        max-width: 150px;
-        height: auto;
+        object-fit: cover;
       }
     </style>
   </head>
@@ -113,13 +118,13 @@
       </div>
 
       <div>
-        <img src="1856247/gatsby1" alt="" />
+        <img src="1956247/gatsby1.png" alt="" />
         <a href="1956247/index.html">李晋 Gatsby Stool</a>
       </div>
 
       <div>
         <img src="1851640/assets/image4.jpg" alt="" />
-        <a href="1851640/index.html">王潇雯 Gatsby Stool</a>
+        <a href="1851640/index.html">王潇雯 CATCH A SHARK</a>
       </div>
 
       <div>
@@ -141,47 +146,48 @@
         <img src="1956246/assets/image1.jpg" alt="KOMPLEMENT" />
         <a href="1956246/index.html">陈恩恩 KOMPLEMENT</a>
       </div>
-      
+
       <div>
         <img src="1950555/assets/image5.jpg" alt="" />
-        <a href="1950555/new version looks like personal site/project1page.html">吴滟芸 FLAPPY STOOL</a>
+        <a href="1950555/new version looks like personal site/project1page.html"
+          >吴滟芸 FLAPPY STOOL</a
+        >
       </div>
 
       <div>
         <img src="1953154/assets/image1.jpg" alt="" />
         <a href="1953154/index.html">肖雨欣 SUSPENDED</a>
       </div>
-      
+
       <div>
         <img src="1950701/assets/凳子1.png" alt="" />
         <a href="1950701/index.html">潘泓希 Painting Stool</a>
       </div>
-      
+
       <div>
-        <img src="191242/assets/1.25.jpg" alt="" />
+        <img src="1951242/assets/1.25.jpg" alt="" />
         <a href="1951242/index.html">李心瑜 Bounce Stool</a>
       </div>
-      
+
       <div>
         <img src="1850936/assets/stool.jpg" alt="" />
         <a href="1850936/index.html">郑茜予 Dance Stool</a>
       </div>
-      
+
       <div>
         <img src="1951776/assets/image_B.jpeg" alt="" />
         <a href="1951776/index.html">林文霆 FELIX</a>
       </div>
-      
+
       <div>
         <img src="1953330/assets/图片1.jpg" alt="" />
         <a href="1953330/tfltstool.html">李婧言 T-F-T-L STOOL</a>
       </div>
-      
+
       <div>
         <img src="1953880/asset/image2.jpg" alt="" />
         <a href="1953880/index.html">李玥涵 IKEYS</a>
       </div>
-      
     </div>
   </body>
 </html>
