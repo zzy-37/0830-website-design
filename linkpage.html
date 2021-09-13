@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>板凳设计欣赏</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        height: 100vh;
+
+        justify-content: center;
+      }
+      body > * + * {
+        margin-top: 1rem;
+      }
+
+      .flex-co {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .banner {
+        background-image: url(/image1.jpeg), url(/image1.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: overlay;
+        filter: grayscale(50%);
+
+        color: white;
+        min-height: 40vh;
+        position: relative;
+
+        justify-content: flex-end;
+      }
+      .banner > p {
+        margin: 0;
+        font-size: clamp(3rem, 1rem + 5vw, 4rem);
+        font-weight: bold;
+      }
+
+      .lead {
+        max-width: 60ch;
+        overflow-y: auto;
+        opacity: 0;
+        transition: opacity 200ms ease-in-out;
+      }
+      .lead::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-color: black;
+        opacity: 0.5;
+        mix-blend-mode: darken;
+      }
+      .banner:hover .lead {
+        opacity: 1;
+      }
+
+      .btn {
+        background-color: slategray;
+        background-blend-mode: overlay;
+      }
+      .btn a {
+        color: white;
+        line-height: 2em;
+        text-decoration: none;
+        transition: all 200ms ease;
+      }
+      .btn a:hover {
+        font-weight: bold;
+        padding-left: 1rem;
+        background-color: lightslategray;
+      }
+
+      .logo > img {
+        max-width: 20rem;
+      }
+    </style>
+  </head>
+
+  <body class="flex-co">
+    <div class="logo">
+      <img src="/SVG/logo.svg" alt="" />
+    </div>
+    <div class="banner flex-co">
+      <div class="lead">
+        <p>
+          同济大学设计创意学院工业设计的板凳设计课程经历了从纸上谈兵的设计和效果图渲染，到工坊建设完成后尝试的板凳设计与制作实践，积累了设计和制作的经验。如今已发展为，每年确定一个主题，在对主题的思考讨论中，洞见（Insight）板凳设计的机会点（Opportunity
+          area），并通过日益完善的辅助条件催生每位学生的处女作——第一张板凳。
+        </p>
+        <p>
+          以下为历届的学生优秀设计选登，当然其中还是有很多不完善之处，希望通过这本书的传播，得到更多的建议反馈，汇集更多的真知灼见。
+        </p>
+      </div>
+      <p>板凳设计欣赏</p>
+    </div>
+    <div class="btn flex-co">
+      <a href="">2020 - IKEA Hacker</a>
+      <a href="">2019 - Upcycling</a>
+      <a href="">2018 - Re-engraving Innovation</a>
+      <a href="">2017 - Playing with Wood</a>
+      <a href="">2016 - Comprehensive Exploration</a>
+    </div>
+    <footer>2021 | 同济大学设计创意学院</footer>
+  </body>
+</html>
